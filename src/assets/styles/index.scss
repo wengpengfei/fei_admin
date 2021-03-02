@@ -1,0 +1,41 @@
+//@import "~tailwindcss/dist/base.min.css";
+//@import "~tailwindcss/dist/utilities.css";
+
+@tailwind base;
+@tailwind utilities;
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/packages/theme-chalk/src/fonts';
+
+//color
+$--color-primary: #0060c3;
+//$--color-warning: #de4040;
+
+// element-ui
+$--color-text-primary: #333;
+
+/* Button
+-------------------------- */
+$--button-font-size: 14px !default;
+$--button-padding-vertical: 10px !default;
+
+/* Border
+-------------------------- */
+$--border-color-base: #e6e6e6 !default;
+$--border-color-light: #eee !default;
+$--border-color-lighter: #e8e8e8 !default;
+
+/* Input
+-------------------------- */
+$--input-height: 36px !default;
+
+/* Checkbox
+-------------------------- */
+$--checkbox-input-height: 14px !default;
+$--checkbox-input-width: 14px !default;
+
+/* Radio
+-------------------------- */
+$--radio-input-height: 14px !default;
+$--radio-input-width: 14px !default;
+
+@import "~element-ui/packages/theme-chalk/src/index.scss";
