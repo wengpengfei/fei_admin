@@ -3,7 +3,7 @@
     <div
       class="tab-item"
       v-for="(tab, index) in tabList"
-      :key="index"
+      :key="tab.index"
       @click="current = index"
       :class="{ true: 'activated' }[current === index]"
     >

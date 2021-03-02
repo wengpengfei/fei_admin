@@ -39,12 +39,12 @@
     }
 
     .tab-close {
+      background: transparent;
       position: absolute;
       right: 17px;
       top: 9px;
       font-size: 12px;
       display: none;
-      background: white;
       padding: 2px;
 
       &:hover {
@@ -71,6 +71,10 @@
         path {
           fill: gray;
         }
+      }
+
+      .tab-close {
+        display: block;
       }
     }
   }
