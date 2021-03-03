@@ -1,8 +1,6 @@
-//@import "~tailwindcss/dist/base.min.css";
-//@import "~tailwindcss/dist/utilities.css";
-
 @tailwind base;
 @tailwind utilities;
+@import "base";
 /* 改变 icon 字体路径变量，必需 */
 $--font-path: '~element-ui/packages/theme-chalk/src/fonts';
 

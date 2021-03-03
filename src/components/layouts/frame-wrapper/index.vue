@@ -1,12 +1,8 @@
 <template>
-  <el-container>
-    <el-aside width="200px">
-      <fw-side></fw-side>
-    </el-aside>
+  <el-container id="app">
+    <fw-side></fw-side>
     <el-container>
-      <el-header>
-        <fw-header></fw-header>
-      </el-header>
+      <fw-header></fw-header>
       <el-main>
         <fw-tab></fw-tab>
         <router-view></router-view>

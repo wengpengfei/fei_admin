@@ -45,7 +45,7 @@
     data() {
       return {
         current: 4,
-        tabList: new Array(7).map((item, index) => {
+        tabList: new Array(7).fill(0).map((item, index) => {
           return {
             name: index,
             index: index
@@ -55,7 +55,7 @@
     },
     methods: {
       close(index) {
-        this.tabList.splice(0, index)
+        this.tabList.splice(index, 1)
       }
     }
   }
