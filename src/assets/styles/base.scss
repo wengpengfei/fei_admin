@@ -1,3 +1,15 @@
-html, body, .el-container#app {
+html,
+body,
+.el-container#app {
   height: 100%;
+}
+
+#app {
+  &.el-container {
+    .el-aside,
+    .el-main,
+    .el-header {
+      @apply p-0
+    }
+  }
 }

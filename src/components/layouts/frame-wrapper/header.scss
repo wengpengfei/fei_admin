@@ -1,0 +1,20 @@
+$prefix: 'header-tools';
+
+.#{$prefix} {
+  i.tool {
+    display: inline-block;
+    padding: 24px 15px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 12px;
+
+    &:hover {
+      @apply bg-gray-100;
+    }
+  }
+}
+
+.#{$prefix}-left, .#{$prefix}-right {
+
+}
+
